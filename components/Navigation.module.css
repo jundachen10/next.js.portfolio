@@ -1,0 +1,20 @@
+.container{
+    margin-bottom: 1.5rem;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+}
+
+.listItem{
+    cursor: pointer;
+}
+
+.listActive{
+    cursor: pointer;
+    color: #0582CA;
+}

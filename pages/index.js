@@ -1,18 +1,35 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import GithubStats from '../components/GithubStats';
+import Navigation from '../components/Navigation';
+import Aligner from '../components/Aligner';
 
 export default function Home() {
   return (
-    <Layout home>
+    <Aligner>
+    
       <Head>
-        <title>{siteTitle}</title>
+        <title>"Junda Chen"</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p></p>
-        <GithubStats />
+
+    <div className="title">
+
+     <section className={utilStyles.headingXl}>
+      <p>Junda Chen</p>
       </section>
-    </Layout>
+
+        <Navigation />
+    
+    </div>
+    <GithubStats />
+
+
+        <div className="socials">
+          <section className={utilStyles.headingXl}>
+            <p>Connect with me</p>
+          </section>
+        </div>
+      
+        </Aligner>
   );
 }
