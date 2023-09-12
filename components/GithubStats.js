@@ -1,24 +1,31 @@
 import styles from './githubStats.module.css';
 
-const githubReadmeStats = 
+const githubReadmeStatsURL = 
 'https://github-readme-stats-gold-alpha.vercel.app/api?username=jundachen10&show_icons=true&theme=radical&hide_rank=true';
-
-const githubTopLanguages = 
+const githubTopLanguagesURL = 
 'https://github-readme-stats-gold-alpha.vercel.app/api/top-langs/?username=jundachen10&layout=compact&theme=radical';
 
+//reusable component for holding stat boxes
+function StatsBlock({ imageURL, altText}) {
+    return (
+        <div className={styles.container}>
+            <img src={imageURL} alt={altText} />
+        </div>
+    );
+}
 
 export default function GithubStats() {
     return (
-
-    //github stats
     <div>
-        <div className={styles.container}>
-            <img src={githubReadmeStats} alt="@Junda's github stats" />
-        </div>
-        
-        <div className={styles.container}>
-            <img src={githubTopLanguages} alt="Junda's top languages" />
-        </div>
+        <StatsBlock
+            imgageURL={githubReadmeStatsURL}
+            altText="Github stats for me"
+        />
+
+        <StatsBlock
+            imageURL={githubTopLanguagesURL}
+            altText="Top language stats for me"
+        />
     </div>
-    )
+    );
 }
