@@ -1,2 +1,18 @@
-const GithubReadmeStats = 
-'https://github-readme-stats-gold-alpha.vercel.app/api?username=jundachen10&show_icons=true&theme=radical';
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 24rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .backToHome {
+    margin: 3rem 0 0;
+  }
