@@ -5,7 +5,7 @@ import styles from '../styles/links.module.scss';
 function SocialsBlock({ href, link}) {
     return(
         <div className={styles.link}>
-            <a href={{href}}>{link}</a>
+            <a href={href}>{link}</a>
         </div>
     )
 }
@@ -28,7 +28,7 @@ export default function Socials() {
 
                     {/*<a href="https://www.linkedin.com/in/jundachen" className={styles.link}>LinkedIn</a>
                     <a href="https://www.github.com/jundachen10" className={styles.link}>GitHub</a>*/}
-                    
+
                 </ul>
             </nav>
         </>
