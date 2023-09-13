@@ -25,10 +25,10 @@ export default function Home() {
             />
         </>
       </div>
+    <Navigation />
      <section className={utilStyles.headingXl}>
       <p>Jay Chen</p>
       </section>
-    <Navigation />
       <section className={utilStyles.headingMd}>
         <p>Hi, I'm Jay a software engineer. 
           This is a React website I built in Next.js 

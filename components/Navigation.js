@@ -21,7 +21,7 @@ export default function Navigation() {
 
                     <Link href="/" className={styles.link}>Home</Link>
                     <Link href="/pages/work" className={styles.link}>Work</Link>
-                    <Link href="/pages/portfolio" className={styles.link}>Engineer</Link>
+                    <Link href="/pages/portfolio" className={styles.link}>Projects</Link>
                     <Link href="/pages/resume" className={styles.link}>Resume</Link>
 
                     <button title="Dark Mode" type="button" onClick={toggleTheme}>
