@@ -4,6 +4,7 @@ import GithubStats from '../components/GithubStats';
 import Navigation from '../components/Navigation';
 import Aligner from '../components/Aligner';
 import Socials from '../components/Socials';
+import useTheme from 'next-themes';
 
 export default function Home() {
   return (
