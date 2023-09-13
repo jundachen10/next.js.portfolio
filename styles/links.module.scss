@@ -2,17 +2,35 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
     //hover link effects
     &::before{
         content: '<';
         visibility: hidden;
-        opacity: 1;
+        opacity: 0;
+        font-weight: bolder;
     }
  
     &:hover::before{
         visibility: visible;
         opacity: 1;
         color: #39ff5a;
+    }
+
+    &:hover{
+        color: #3B82f6;
+    }
+
+    &::after{
+        content: '/>';
+        visibility: hidden;
+        opacity: 0;
+        font-weight: bolder;
+    }
+
+    &:hover::after{
+        visibility: visible;
+        opacity: 1;
+        font-weight: bolder;
     }
 }
