@@ -16,6 +16,7 @@ Thank you for reading this, as I try to document everything about my website.
 - design a new dark mode button
 - make dark mode less dark
 - refactor everything
+- add custom domain name
 
 ## Things I Learned
 - Using a personal access token for github sats on Vercel by environment variables.
