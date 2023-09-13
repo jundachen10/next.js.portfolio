@@ -19,8 +19,12 @@ Thank you for reading this, as I try to document everything about my website.
 - add custom domain name
 
 ## Things I Learned
-- Using a personal access token for github sats on Vercel by environment variables.
-- Locally scoped CSS classes to improve maintainabilty and avoid naming conflicts using module.css files.
-- Globally passing stuff through _app.js file. This was especially important with implementing dark mode.
-- Dark mode was interesting in that I used an external libary called next-themes. This required me wrapping the entire application with the proper tags through the _app.js file.
-- React components by factoring out functioning pieces like the github stats blocks. This in addition to the navigation menu are separate modules called into the index file by their component tags. This helps ease maintaining the code and for other to read as they are in a different .js file.
+-Utilized a personal access token for GitHub stats on Vercel using environment variables.
+
+-Enhanced code maintainability by using locally scoped CSS classes, managed through module.css files to prevent naming conflicts.
+
+-Implemented global data sharing via the _app.js file, crucial for features like dark mode.
+
+-Utilized the external library "next-themes" for dark mode functionality, requiring wrapping the entire application with appropriate tags in the _app.js file.
+
+-Improved code organization by breaking down React components into separate modules, such as GitHub stats blocks and the navigation menu. These modules are then called into the index file using component tags, making the code easier to maintain and read as they reside in separate .js files.
