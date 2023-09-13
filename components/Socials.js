@@ -28,7 +28,7 @@ export default function Socials() {
 
                     {/*<a href="https://www.linkedin.com/in/jundachen" className={styles.link}>LinkedIn</a>
                     <a href="https://www.github.com/jundachen10" className={styles.link}>GitHub</a>*/}
-
+                    
                 </ul>
             </nav>
         </>

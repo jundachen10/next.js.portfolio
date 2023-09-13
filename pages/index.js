@@ -6,7 +6,7 @@ import Aligner from '../components/Aligner';
 import Socials from '../components/Socials';
 import useTheme from 'next-themes';
 import Image from 'next/image';
-
+//test
 export default function Home() {
   return (
     <Aligner>
