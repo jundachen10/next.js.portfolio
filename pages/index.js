@@ -6,15 +6,14 @@ import Aligner from '../components/Aligner';
 import Socials from '../components/Socials';
 import useTheme from 'next-themes';
 import Image from 'next/image';
-//test
+
 export default function Home() {
   return (
     <Aligner>
       <Head>
-        <title>"Junda Chen"</title>
+        <title>Junda Chen</title>
       </Head>
       <div>
-        <>
         <Image
               priority
               src="/images/me.jpeg"
@@ -23,7 +22,6 @@ export default function Home() {
               width={144}
               alt=""
             />
-        </>
       </div>
     <Navigation />
      <section className={utilStyles.headingXl}>
