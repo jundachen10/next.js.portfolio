@@ -31,5 +31,8 @@ Thank you for reading this, as I try to document everything about my website.
 
 ## Updates
 ### September 14 23
-- installed vercel/analytics 'npm i @vercel/analytics'
-- wrapped _app.js with <Analytics /> tag
+- Installed vercel/analytics 'npm i @vercel/analytics'
+- Wrapped _app.js with <Analytics /> tag
+- Domain set to jaychen.app
+### September 16 23
+- added functional links with something other than 404 lol

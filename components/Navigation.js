@@ -20,9 +20,9 @@ export default function Navigation() {
                 <ul className={classes.list}>
 
                     <Link href="/" className={styles.link}>Home</Link>
-                    <Link href="/pages/work" className={styles.link}>Work</Link>
-                    <Link href="/pages/portfolio" className={styles.link}>Projects</Link>
-                    <Link href="/pages/resume" className={styles.link}>Resume</Link>
+                    <Link href="/work" className={styles.link}>Work</Link>
+                    <Link href="/portfolio" className={styles.link}>Projects</Link>
+                    <Link href="/resume" className={styles.link}>Resume</Link>
 
                     <button title="Dark Mode" type="button" onClick={toggleTheme}>
                         Dark Mode
