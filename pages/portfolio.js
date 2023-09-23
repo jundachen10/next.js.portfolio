@@ -10,3 +10,7 @@ export default function port() {
         </>
     );  
 }
+
+//make cards its own component
+//brackets
+//

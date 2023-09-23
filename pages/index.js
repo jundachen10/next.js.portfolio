@@ -36,7 +36,7 @@ export default function Home() {
       <section className={utilStyles.headingLg}>
         <p>Explore my public GitHub stats</p>
       </section>
-    <GithubStats />
+      <GithubStats />
       <section className={utilStyles.headingXl}>
         <p>Connect with me</p>
         </section>
