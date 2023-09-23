@@ -33,8 +33,8 @@ export default function Home() {
           the release notes <a href='https://github.com/jundachen10/next.js.portfolio'>click here</a>.
          </p>
       </section>
-      <section className={utilStyles.headingLg}>
-        <p>Explore my public GitHub stats</p>
+      <section className={utilStyles.headingMd}>
+        <p>GitHub metrics are updated below in real time</p>
       </section>
       <GithubStats />
       <section className={utilStyles.headingXl}>
