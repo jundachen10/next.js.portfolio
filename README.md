@@ -36,3 +36,7 @@ Thank you for reading this, as I try to document everything about my website.
 - Domain set to jaychen.app
 ### September 16 23
 - added functional links with something other than 404 lol
+
+### September 23 23
+- external links to resume and readme files
+- copy on index page
