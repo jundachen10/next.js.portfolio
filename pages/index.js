@@ -35,7 +35,6 @@ export default function Home() {
       </section>
       <section className={utilStyles.headingMd}>
         <p>GitHub metrics are updated in real time</p>
-        <p>See how I created this component in the repo, it's the githubstats.js component</p>
       </section>
       <GithubStats />
       <section className={utilStyles.headingXl}>
