@@ -23,7 +23,7 @@ export default function Navigation() {
                     {/*<Link href="/work" className={styles.link}>Work</Link>
                     <Link href="/portfolio" className={styles.link}>Projects</Link>*/}
                     <Link href="https://github.com/jundachen10/next.js.portfolio#readme" className={styles.link}>ReadMe</Link>
-                    <Link href="https://drive.google.com/file/d/17oAU61F9ui3tVX4sCgChEtvI80EZV0iV/view?usp=drive_link" className={styles.link}>Resume</Link>
+                    <Link href="https://github.com/jundachen10/jays_resume" className={styles.link}>Resume</Link>
 
                     <button title="Dark Mode" type="button" onClick={toggleTheme}>
                         Dark Mode
