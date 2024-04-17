@@ -28,7 +28,7 @@ export default function Home() {
       <p>Jay Chen</p>
       </section>
       <section className={utilStyles.headingMd}>
-        <p>Hi I'm Jay, a software engineer. This web app is
+        <p>Hi I'm Jay, a digital native millenial with a diverse background in: High growth startups, coding, genetic research, and business analysis. This web app is
           still a work in progress so be sure to check
           the release notes <a href='https://github.com/jundachen10/next.js.portfolio'>click here</a>.
          </p>
