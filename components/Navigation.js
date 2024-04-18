@@ -4,7 +4,6 @@ import styles from '../styles/links.module.scss';
 import { setTheme } from 'next-themes';
 import { useTheme } from 'next-themes';
 
-
 export default function Navigation() {
 
     const { resolvedTheme, setTheme } = useTheme();
@@ -18,10 +17,7 @@ export default function Navigation() {
         <>
             <div>
                 <ul className={classes.list}>
-
                     <Link href="/" className={styles.link}>home</Link>
-                    {/*<Link href="/work" className={styles.link}>Work</Link>
-                    <Link href="/portfolio" className={styles.link}>Projects</Link>*/}
                     <Link href="https://www.linkedin.com/in/jundachen" className={styles.link}>linkedin</Link>
                     <Link href="https://www.github.com/jundachen10" className={styles.link}>github</Link>
                     <Link href="https://github.com/jundachen10/next.js.portfolio#readme" className={styles.link}>readme</Link>
