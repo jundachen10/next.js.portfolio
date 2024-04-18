@@ -23,14 +23,17 @@ export default function Home() {
           alt=""
         />
       </div>
-      <Navigation />
+
+      <Navigation /> {/*nav component */}
+
       <section className={utilStyles.headingXl}>
         <p>Jay Chen</p>
+
       </section>
 
       <section className={utilStyles.headingMd}>
 
-        Neat stuff that I built on this site:
+        <p>Neat stuff that I built on this site:</p>
         <ul className={utilStyles.listIndent}>
           <li>
             Try clicking on the dark mode button
@@ -46,22 +49,24 @@ export default function Home() {
       </section>
 
       <section className={utilStyles.headingMd}>
-        <p>What I learned building this stuff:
-          <ul className={utilStyles.listIndent}>
-            <li>deploying this live on Vercel</li>
-            <li>using css modules to organize css styles per page</li>
-            <li>using scss to animate hover effects</li>
-            <li>component structure of organizing my website by function</li>
-            <li>Wrapping the app.js file with the dark mode theme wrapper</li>
-          </ul>
-        </p>
+
+        <p>What I learned building this stuff:</p>
+        <ul className={utilStyles.listIndent}>
+          <li>deploying this live on Vercel</li>
+          <li>using css modules to organize css styles per page</li>
+          <li>using scss to animate hover effects</li>
+          <li>component structure of organizing my website by function</li>
+          <li>Wrapping the app.js file with the dark mode theme wrapper</li>
+        </ul>
 
       </section>
+
+      {/*live stats component */}
       <GithubStats />
-      <section className={utilStyles.headingXl}>
-        <p>Connect with me</p>
-      </section>
-      <Socials />
+
+      {/*social links component */}
+      {/* <Socials /> */}
+
     </Aligner>
   );
 }

@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import classes from './Navigation.module.css';
-import styles from '../styles/links.module.scss';
+import linkStyles from '../styles/links.module.scss';
 
 function SocialsBlock({ href, link }) {
     return (
-        <div className={styles.link}>
+        <div className={linkStyles.link}>
             <a href={href}>{link}</a>
         </div>
     )
@@ -13,7 +13,7 @@ function SocialsBlock({ href, link }) {
 export default function Socials() {
 
     return (
-        <>
+        <div>
             <nav>
                 <ul className={classes.list}>
 
@@ -31,6 +31,6 @@ export default function Socials() {
 
                 </ul>
             </nav>
-        </>
+        </div>
     );
 }

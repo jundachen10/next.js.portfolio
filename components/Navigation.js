@@ -19,15 +19,14 @@ export default function Navigation() {
             <div>
                 <ul className={classes.list}>
 
-                    <Link href="/" className={styles.link}>Home</Link>
+                    <Link href="/" className={styles.link}>home</Link>
                     {/*<Link href="/work" className={styles.link}>Work</Link>
                     <Link href="/portfolio" className={styles.link}>Projects</Link>*/}
-                    <Link href="https://github.com/jundachen10/next.js.portfolio#readme" className={styles.link}>ReadMe</Link>
-                    <Link href="https://github.com/jundachen10/jays_resume" className={styles.link}>Resume</Link>
-
-                    <button title="Dark Mode" type="button" onClick={toggleTheme}>
-                        Dark Mode
-                    </button>
+                    <Link href="https://www.linkedin.com/in/jundachen" className={styles.link}>linkedin</Link>
+                    <Link href="https://www.github.com/jundachen10" className={styles.link}>github</Link>
+                    <Link href="https://github.com/jundachen10/next.js.portfolio#readme" className={styles.link}>readme</Link>
+                    <Link href="https://github.com/jundachen10/jays_resume" className={styles.link}>resume</Link>
+                    <button title="Dark Mode" type="button" onClick={toggleTheme}>Dark Mode</button>
                 </ul>
             </div>
         </>
