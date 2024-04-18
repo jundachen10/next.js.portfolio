@@ -10,11 +10,11 @@ export default function Navigation() {
     const { resolvedTheme, setTheme } = useTheme();
 
     const toggleTheme = () => {
-            /* If resolvedTheme is equal to "dark," it returns "light"; otherwise, it returns "dark."*/
-            setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
-      };
+        /* If resolvedTheme is equal to "dark," it returns "light"; otherwise, it returns "dark."*/
+        setTheme(resolvedTheme === 'dark' ? 'light' : 'dark');
+    };
 
-    return(
+    return (
         <>
             <div>
                 <ul className={classes.list}>

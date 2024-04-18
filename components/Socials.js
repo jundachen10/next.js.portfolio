@@ -2,8 +2,8 @@ import Link from 'next/link';
 import classes from './Navigation.module.css';
 import styles from '../styles/links.module.scss';
 
-function SocialsBlock({ href, link}) {
-    return(
+function SocialsBlock({ href, link }) {
+    return (
         <div className={styles.link}>
             <a href={href}>{link}</a>
         </div>
@@ -12,18 +12,18 @@ function SocialsBlock({ href, link}) {
 
 export default function Socials() {
 
-    return(
+    return (
         <>
             <nav>
                 <ul className={classes.list}>
 
-                    <SocialsBlock 
-                    href="https://www.linkedin.com/in/jundachen"
-                    link="LinkedIn"
+                    <SocialsBlock
+                        href="https://www.linkedin.com/in/jundachen"
+                        link="LinkedIn"
                     />
-                    <SocialsBlock 
-                    href="https://www.github.com/jundachen10"
-                    link="Git"
+                    <SocialsBlock
+                        href="https://www.github.com/jundachen10"
+                        link="Git"
                     />
 
                     {/*<a href="https://www.linkedin.com/in/jundachen" className={styles.link}>LinkedIn</a>

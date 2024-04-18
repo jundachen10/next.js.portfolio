@@ -15,32 +15,53 @@ export default function Home() {
       </Head>
       <div>
         <Image
-              priority
-              src="/images/me.jpeg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt=""
-            />
+          priority
+          src="/images/me.jpeg"
+          className={utilStyles.borderCircle}
+          height={144}
+          width={144}
+          alt=""
+        />
       </div>
-    <Navigation />
-     <section className={utilStyles.headingXl}>
-      <p>Jay Chen</p>
+      <Navigation />
+      <section className={utilStyles.headingXl}>
+        <p>Jay Chen</p>
       </section>
+
       <section className={utilStyles.headingMd}>
-        <p>Hi I'm Jay, a digital native millenial with a diverse background in: High growth startups, coding, genetic research, and business analysis. This web app is
-          still a work in progress so be sure to check
-          the release notes <a href='https://github.com/jundachen10/next.js.portfolio'>click here</a>.
-         </p>
+
+        Neat stuff that I built on this site:
+        <ul className={utilStyles.listIndent}>
+          <li>
+            Try clicking on the dark mode button
+          </li>
+          <li>
+            The nav bar links animate when you hover over with your mouse
+          </li>
+          <li>
+            The below github metrics are updated in real-time as I push commits
+          </li>
+        </ul>
+
       </section>
+
       <section className={utilStyles.headingMd}>
-        <p>GitHub metrics are updated in real time</p>
+        <p>What I learned building this stuff:
+          <ul className={utilStyles.listIndent}>
+            <li>deploying this live on Vercel</li>
+            <li>using css modules to organize css styles per page</li>
+            <li>using scss to animate hover effects</li>
+            <li>component structure of organizing my website by function</li>
+            <li>Wrapping the app.js file with the dark mode theme wrapper</li>
+          </ul>
+        </p>
+
       </section>
       <GithubStats />
       <section className={utilStyles.headingXl}>
         <p>Connect with me</p>
-        </section>
-    <Socials />
+      </section>
+      <Socials />
     </Aligner>
   );
 }
